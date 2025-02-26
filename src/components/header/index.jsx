@@ -9,7 +9,6 @@ const Header = () => {
             <Link to='/about_website'><button className={styles.button}>About website</button></Link>
             <Link to='/todoList'><button className={styles.button}>Todo List</button></Link>
             <Link to='/ball_8'><button className={styles.button}>Fortune ball</button></Link>
-            <Link to='/tic_tac_toe'><button className={styles.button}>tic tac toe</button></Link>
         </nav>
     </div>
 }
