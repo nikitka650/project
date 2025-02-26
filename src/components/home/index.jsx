@@ -5,7 +5,7 @@ import patric from "../images/patric.jpg"
 const Home = () =>{
     return <div className={styles.home}>
         <label className={styles.label}>Приветствую вас на моем сайте!</label>
-        <img className={styles.img} src={patric} alc="патрик" />
+        <img className={styles.img} src={patric} alt="патрик" />
         
     </div>
 };
