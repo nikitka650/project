@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./style.module.css"
-import React, { useState } from "react";
+import { useState } from "react";
 
 const answers = [
   "Да",
