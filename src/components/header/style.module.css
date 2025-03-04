@@ -24,6 +24,6 @@
     padding: 1.25em 0;
     cursor: pointer;
     align-content: center;
-    font-size: calc(16px + 1vw);
+    font-size: calc(16px + 0.1vw);
 }
 
