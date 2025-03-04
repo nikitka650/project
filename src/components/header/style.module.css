@@ -1,7 +1,7 @@
 .container {
     background-color: #1F2833;
-    width: 100vh;
-    height: 70px;
+    width: 100vw;
+    height: 9vh;
     justify-content: center;
     
 }
