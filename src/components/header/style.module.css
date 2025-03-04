@@ -16,7 +16,7 @@
 
 .button {
     width: 9vw;
-    height: 6vh;
+    height: 7vh;
     background-color: #45A29E;
     border: none;
     border-radius: 0.25em;
@@ -24,5 +24,6 @@
     padding: 1.25em 0;
     cursor: pointer;
     align-content: center;
+    font-size: calc(16px + 1vw);
 }
 
