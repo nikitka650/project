@@ -10,15 +10,15 @@
   background: radial-gradient(circle at 5% 5%, #666, #222 50%), #222;
   border: 1px solid black;
   border-radius: 100%;
-  width: 450px;
-  height: 450px;
+  width: 29vw;
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .input {
-  width: 100%;
+  width: 55vw;
   font-size: 1rem;
   border: 1px solid #e4e4e4;
   border-radius: 0.25em;
@@ -49,8 +49,9 @@
   margin: 5px;
 }
 
-
-
+.header {
+  flex-direction: column;
+}
 
 
 

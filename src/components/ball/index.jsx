@@ -39,7 +39,7 @@ const Ball = () => {
   return  <div className={styles.body}>
     
     <form onSubmit={getAnswer}>
-      <div>
+      <div className={styles.header}>
         <label className={styles.name}>Напишите вопрос</label>
         <input 
           className={styles.input}
