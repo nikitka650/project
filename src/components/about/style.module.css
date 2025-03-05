@@ -8,6 +8,7 @@
 .label {
     color: #66FCF1;
     align-items: stretch;
+    justify-content: space-around;
 }
 
 .img {
