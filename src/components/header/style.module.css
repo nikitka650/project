@@ -15,6 +15,10 @@
 }
 
 .button {
+    min-width: 22px;
+    min-height: 11px;
+    max-width: 150px;
+    max-height: 70px;
     width: 9vw;
     height: 7vh;
     background-color: #45A29E;
