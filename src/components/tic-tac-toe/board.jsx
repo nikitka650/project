@@ -38,7 +38,7 @@ const Board = () => {
 
   return (
     <div>
-      <h2>{winner ? `Победитель: ${winner}` : `Следующий ход: ${isXNext ? 'X' : 'O'}`}</h2>
+      <h2 className={styles.text}>{winner ? `Победитель: ${winner}` : `Следующий ход: ${isXNext ? 'X' : 'O'}`}</h2>
       <div className={styles.board}>
         <Square value={squares[0]} onClick={() => handleClick(0)} />
         <Square value={squares[1]} onClick={() => handleClick(1)} />
@@ -54,7 +54,7 @@ const Board = () => {
         <Square value={squares[7]} onClick={() => handleClick(7)} />
         <Square value={squares[8]} onClick={() => handleClick(8)} />
       </div>
-      <button onClick={handleRestart}>Перезапустить игру</button>
+      <button className={styles.button} onClick={handleRestart}>Перезапустить игру</button>
     </div>
   );
 };
